@@ -83,8 +83,7 @@ const Hero = () => {
               began as an interest in how systems stay protected soon grew into
               a passion for building them. Today, I develop scalable MERN and AI
               applications that combine performance, security, and great user
-              experience — blending my background in Cloud security with a love
-              for clean and functional software Applications.
+              experience.
             </motion.p>
 
             <motion.a

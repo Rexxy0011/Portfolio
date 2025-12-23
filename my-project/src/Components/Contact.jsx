@@ -57,7 +57,7 @@ const Contact = () => {
           Let’s Connect
         </h2>
         <div className="h-1 w-24 bg-accent mx-auto rounded-full mb-6"></div>
-        <p className="text-gray-400 max-w-2xl mx-auto">
+        <p className="text-gray-400 max-w-2xl mx-auto text-sm sm:text-base">
           Have an idea, a product, or a vision you want to bring to life? Let’s
           connect and make it happen.
         </p>
@@ -77,12 +77,12 @@ const Contact = () => {
             {/* Address */}
             <div className="flex items-start gap-3 sm:gap-4">
               <div className="p-2 sm:p-3 rounded-full bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)]">
-                <MapPin className="text-accent w-4 h-4 sm:w-5 sm:h-5" />
+                <MapPin className="text-accent w-5 h-5 sm:w-5 sm:h-5" />
               </div>
 
               <div className="flex-1">
-                <p className="text-gray-400 text-xs sm:text-sm">Address</p>
-                <p className="text-white font-medium text-xs sm:text-base">
+                <p className="text-gray-400 text-sm sm:text-sm">Address</p>
+                <p className="text-white font-medium text-sm sm:text-base">
                   Lagos, Nigeria
                 </p>
               </div>
@@ -91,14 +91,14 @@ const Contact = () => {
             {/* Email */}
             <div className="flex items-start gap-3 sm:gap-4">
               <div className="p-2 sm:p-3 rounded-full bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)]">
-                <Mail className="text-accent w-4 h-4 sm:w-5 sm:h-5" />
+                <Mail className="text-accent w-5 h-5 sm:w-5 sm:h-5" />
               </div>
 
               <div className="flex-1">
-                <p className="text-gray-400 text-xs sm:text-sm">Email</p>
+                <p className="text-gray-400 text-sm sm:text-sm">Email</p>
                 <a
                   href="mailto:Rexxycael@gmail.com"
-                  className="text-white font-medium hover:text-accent transition-colors duration-300 text-xs sm:text-sm break-words"
+                  className="text-white font-medium text-sm sm:text-base hover:text-accent transition-colors duration-300 break-words"
                 >
                   Rexxycael@gmail.com
                 </a>
@@ -108,14 +108,14 @@ const Contact = () => {
             {/* Phone */}
             <div className="flex items-start gap-3 sm:gap-4">
               <div className="p-2 sm:p-3 rounded-full bg-[rgba(255,255,255,0.05)] border border-[rgba(255,255,255,0.1)]">
-                <Phone className="text-accent w-4 h-4 sm:w-5 sm:h-5" />
+                <Phone className="text-accent w-5 h-5 sm:w-5 sm:h-5" />
               </div>
 
               <div className="flex-1">
-                <p className="text-gray-400 text-xs sm:text-sm">Phone</p>
+                <p className="text-gray-400 text-sm sm:text-sm">Phone</p>
                 <a
                   href="tel:+2348088389298"
-                  className="text-white font-medium hover:text-accent transition-colors duration-300 text-xs sm:text-sm"
+                  className="text-white font-medium text-sm sm:text-base hover:text-accent transition-colors duration-300"
                 >
                   +234 808 838 9298
                 </a>
@@ -132,7 +132,6 @@ const Contact = () => {
             className="space-y-5 text-gray-200"
             autoComplete="off"
           >
-            {/* Name */}
             <div>
               <label className="block text-sm mb-1">Full Name</label>
               <input
@@ -146,7 +145,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* Email */}
             <div>
               <label className="block text-sm mb-1">Email Address</label>
               <input
@@ -160,7 +158,6 @@ const Contact = () => {
               />
             </div>
 
-            {/* Service */}
             <div>
               <label className="block text-sm mb-1">Service</label>
               <select
@@ -174,12 +171,11 @@ const Contact = () => {
                 <option>Website Development</option>
                 <option>Frontend Design</option>
                 <option>Full Stack Application</option>
-                <option>Cloud Integration</option>
+
                 <option>Other</option>
               </select>
             </div>
 
-            {/* Message */}
             <div>
               <label className="block text-sm mb-1">Message</label>
               <textarea
@@ -193,7 +189,6 @@ const Contact = () => {
               ></textarea>
             </div>
 
-            {/* Submit Button */}
             <button
               type="submit"
               className="w-full mt-4 border-2 border-accent text-white font-semibold py-3 rounded-full hover:text-accent transition-all duration-300"

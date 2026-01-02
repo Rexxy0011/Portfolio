@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePic from "../assets/raviKumarProfile.webp";
+import ProfilePic from "../assets/me.jpg";
 import { motion } from "framer-motion";
 
 // Motion variants
@@ -72,7 +72,7 @@ const Hero = () => {
               variants={fadeUp}
               className="bg-gradient-to-r from-stone-300 to-stone-600 bg-clip-text text-3xl tracking-tight text-transparent"
             >
-              Software Developer
+              Software Engineer
             </motion.span>
 
             <motion.p
